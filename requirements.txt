@@ -1,0 +1,24 @@
+# Core scientific stack for the PCVAE framework and the property predictors.
+# Versions are intentionally unpinned here; pin them for an archival release,
+# e.g. by generating a lock file with `pip freeze > requirements-lock.txt`.
+
+# Deep learning
+torch
+
+# Data / numerics
+numpy
+pandas
+scipy
+scikit-learn
+
+# Pretrained protein language models (ESM-2, ProtBERT)
+transformers
+
+# Visualisation / utilities
+matplotlib
+seaborn
+tqdm
+joblib
+
+# NOTE: molecular-dynamics analysis (GROMACS) used elsewhere in the study is a
+# separate, system-level dependency and is not required to run this code.
